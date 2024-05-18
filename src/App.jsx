@@ -7,6 +7,7 @@ import { Contact } from "./Components/Contact/Contact";
 import { Experience } from "./Components/Experience/Experience";
 import { Hero } from "./Components/Hero/Hero";
 import { Navbar } from "./Components/Navbar/Navbar";
+import { Projects } from "./Components/Projects/Projects";
 
 import React from "react";
 
@@ -15,6 +16,10 @@ function App() {
     <div className={styles.App}>
       <Navbar/>
       <Hero />
+      <Experience />
+      <Projects />
+      <Contact />
+      
     </div>
   );
 }
